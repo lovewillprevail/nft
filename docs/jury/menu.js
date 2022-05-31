@@ -1,2 +1,1 @@
-document.write('<nav id="menu"><h2>Menu</h2><ul><li><a href="https://www.nftnftnft.art/index.html#intro">Intro</a></li> <li><a href="https://www.nftnftnft.art/jury/index.html#calendar">Calendar</a></li> <li><a href="https://www.nftnftnft.art/jury/index.html#jury">Jury</a></li> <li><a href="https://www.nftnftnft.art/jury/index.html#rules">Rules</a></li> <li><a href="https://www.nftnftnft.art/jury/index.html">Contact</a></li> </ul></nav>')
-
+document.write('<nav id="menu"><h2>Menu</h2><ul><li><a href="https://www.nftnftnft.art/index.html">Home</a></li> <li><a href="https://www.nftnftnft.art/jury/index.html">Jury</a></li> <li><a href="https://www.nftnftnft.art/jury/j18.html">About</a></li> </ul></nav>')
