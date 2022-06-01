@@ -1,5 +1,0 @@
-#!/bin/bash
-for i in {1..18}
-do
-   cp generic.html "j`printf "%02d" $i `.html"
-done
