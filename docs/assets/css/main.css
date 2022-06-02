@@ -1195,7 +1195,8 @@ input, select, textarea {
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
-		justify-content: space-between;
+		/* justify-content: space-between;*/
+		justify-content: inherit;
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
