@@ -90,7 +90,16 @@
 
 		<!-- BG -->
 			<div id="bg">
-				<center><img src="images/bg01.jpg"></center>
+				<!-- <center><img src="images/bg01.jpg"></center> -->
+				<script type="text/javascript"> 
+					function randomIntFromInterval(min, max) { // min and max included
+					  return Math.floor(Math.random() * (max - min + 1) + min)
+					}
+					const rndInt = randomIntFromInterval(1, 6)
+					const image = "images/bg0" + rndInt + ".jpg";
+					const imageSection = "<center><img src='" + image + "'></center>";
+					document.write(imageSection);
+				</script>
 			</div>
 
 		<!-- Scripts -->
