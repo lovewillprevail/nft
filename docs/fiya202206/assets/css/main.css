@@ -371,7 +371,7 @@ input, select, textarea {
 		}
 
 			#main .items > :last-child {
-				border-right: solid 10px #ffffff;
+				border-right: solid 10px #000000;
 			}
 
 		#main .item {
@@ -385,7 +385,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin: 5px;
 			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			box-shadow: 0 0 0 10px #000000;
 		}
 
 			#main .item.span-1 {
@@ -401,7 +401,8 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				/* background-color: #d64760; */
+				background-color: #cfcfcf; 
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
